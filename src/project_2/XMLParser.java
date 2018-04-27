@@ -58,6 +58,13 @@ public class XMLParser {
     }
 }
 
+/**
+ * @Description: 书类
+ * @param:
+ * @return:
+ * @auther: chenzhaohui
+ * @date: 4/27/2018 11:18 PM
+ */
 class Book {
     public String id, title, author, price;
 
