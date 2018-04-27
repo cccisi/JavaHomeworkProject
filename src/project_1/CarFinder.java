@@ -18,7 +18,7 @@ interface changeColor {
  * Created by chenzhaohui
  * ID 201728018627076
  */
-public class carFinder {
+public class CarFinder {
 
     public static void main(String args[]) {
         /*实例化一个警察对象,警察对象找黑色丰田车*/
@@ -27,12 +27,12 @@ public class carFinder {
     }
 }
 
+/**
+ * 警察类
+ */
 class Police implements findBlackToyota {
     Map<String, Car> cars;
 
-    /**
-     * 警察类
-     */
     public Police() {
         /*构造函式,初始化汽车库,汽车库中仅有一辆黑色丰田*/
         Volkswagen volkswagen1 = new Volkswagen(true, "Volkswagen", 3200.0, 23.3f);
